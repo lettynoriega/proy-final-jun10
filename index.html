@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="CSS/app.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
     <!-- En la cabecera, incluye el archivo bootstrap.min.css incluido en el apartado Archivos
 adjuntos del proyecto. -->
-<link rel="stylesheet" href="./bootstrap.min.css">
+<link rel="stylesheet" href="CSS/bootstrap.min.css">
 <style>
 /*SOBBRESCRIBE EL COLOR DE BOOSTRAP*/
 
@@ -101,7 +101,7 @@ nav a {
             <h1>Tienda en línea con Flexbox</h1>
             
         </div>
-        <img src="principal.jpg" alt="">
+       <!-- <img src="principal.jpg" alt=""> -->
     </article>
 
         <main class="py-3 px-3 px-xs-3 px-sm-5 px-lg-5">
@@ -112,8 +112,8 @@ nav a {
     <!-- PRODUCTO 1 -->
     <article class="row gx-0" id="producto-1">
         <!-- aqui me falto algo para que la imagen no se salga del amrgen-->
-        <div class="columna-1 col-lg-6">
-            <img src="producto1.jpg" alt="">
+        <div class="columna-1 col-lg-6 overflow-hidden">
+            <img src="images/producto1.jpg" alt="">
         </div>
         <div
             class="columna-2 col-lg-6 bg-primary text-white p-4 text-center d-flex flex-column justify-content-center align-items-center">
@@ -142,7 +142,7 @@ nav a {
 <section class="row my-3 " id="seccion-2">
     <!-- PRODUCTO 2 -->
     <article class="col-lg-6 pb-4" id="producto-2">
-        <img src="producto2.jpg" alt="">
+        <img src="images/producto2.jpg" alt="">
 
         <div class="box-descripcion bg-primary text-white p-4 text-center ">
             <h3>Producto 2</h3>
@@ -164,7 +164,7 @@ nav a {
     </article>
     <!-- PRODUCTO 3 -->
     <article class="col-lg-6 " id="producto-3">
-        <img src="producto3.jpg" alt="">
+        <img src="images/producto3.jpg" alt="">
         <div class="box-descripcion bg-primary text-white p-4 text-center ">
             <h3>Producto 3</h3>
             <p class="txt-descripcion">
@@ -191,7 +191,7 @@ nav a {
 <section id="seccion-3" class="row my-5">
     <!-- PRODUCTO 4 -->
     <article id="producto-4" class="col-lg-4 pb-4">
-        <img src="producto4.jpg" alt="">
+        <img src="images/producto4.jpg" alt="">
         <div id="box-descripcion" class="bg-primary text-white p-4 text-center">
             <h3>Producto 4</h3>
             <p id="txt-descripcion">
@@ -209,7 +209,7 @@ nav a {
 
     <!-- PRODUCTO 5 -->
     <article id="producto-5" class="col-lg-4 pb-4">
-        <img src="producto5.jpg" alt="">
+        <img src="images/producto5.jpg" alt="">
         <div id="box-descripcion" class="bg-primary text-white p-4 text-center">
             <h3>Producto 5</h3>
             <p id="txt-descripcion">
@@ -227,7 +227,7 @@ nav a {
 
     <!-- PRODUCTO 6 -->
     <article id="producto-6" class="col-lg-4">
-        <img src="producto6.jpg" alt="">
+        <img src="images/producto6.jpg" alt="">
         <div id="box-descripcion" class="bg-primary text-white p-4 text-center">
             <h3>Producto 6</h3>
             <p id="txt-descripcion">
@@ -256,7 +256,7 @@ nav a {
     <!-- OFICINA -->
     <article class="col-lg-4 pb-4">
         <div class="oficina  pb-1 overflow-hidden">
-            <img src="categoria1.jpg" alt="">
+            <img src="images/categoria1.jpg" alt="">
             <h2 class="pt-1 text-center my-3 fs-4 text-primary">Oficina</h2>
         </div>
     </article>
@@ -264,7 +264,7 @@ nav a {
     <!-- HOGAR -->
     <article class="col-lg-4 pb-4">
         <div class="hogar  pb-1 overflow-hidden">
-            <img src="categoria2.jpg" alt="">
+            <img src="images/categoria2.jpg" alt="">
             <h2 class="pt-1 text-center my-3 fs-4 text-primary">Hogar</h2>
         </div>
     </article>
@@ -272,7 +272,7 @@ nav a {
     <!-- COCINA -->
     <article class="col-lg-4 ">
         <div class="cocina  pb-1 overflow-hidden">
-            <img src="categoria3.jpg" alt="">
+            <img src="images/categoria3.jpg" alt="">
             <h2 class="pt-1 text-center my-3 fs-4 text-primary">Cocina</h2>
         </div>
     </article>
@@ -374,7 +374,7 @@ nav a {
     
 En el cuerpo del documento, incluye el bundle de Bootstrap que encontrarás en el
 apartado Archivos adjuntos. -->
-<script src="./bootstrap.bundle.min.js"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -193,19 +193,19 @@ section#disclaimer {
 
 }
 
-<article class="hero-image">
+/*<article class="hero-image">
         <div>
             <h1>Tienda en línea con Flexbox</h1>
         </div>
-    </article>
+    </article>*/
 
     /* HERO IMAGE */
 .hero-image {
     min-height: 25rem;
-    background-image: url(principal.jpg);
+    background-image: url(../images/principal.jpg);
     background-repeat: no-repeat;
     color: #FFF;
-    background-position: 100% 90%;
+    background-position: center;
     background-size: cover;
 }/* HERO IMAGE */
 
